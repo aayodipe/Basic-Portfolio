@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <link ref="stylesheet" type="text/css" href="assets/css/assets">
+     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
      <title>My Basic Portfolio</title>
-
+     <style>
+          body {
+               background: url("assets/images/cork-wallet.png")
+          }
+     </style>
 </head>
-<body>
-     <header>
-          <!-- Remember to removeb the inline css -->
-          <img src="assets/images/man.jpg" width:100px; height="100px;">
-          <nav>
-               <ol>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contacts</a></li>
-               </ol>
-          </nav>
-     </header>
-     <section>
-          <div class="aboutMe">About me <hr /></div>
-          <article>
-                    <img src="assets/images/man.jpg" width:150px; height="150px;">
-               <p>Lorem Ipsum is simply dummy text of the
-                    printing and typesetting industry. Lorem               
-                    Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took
-                    a galley of type and.<p>scrambled it to make a type specimen book.
-                    It has survived not only five centuries, 
-                    but also the leap into
-                    electronic typesetting,</p> <p></p>remaining essentially unchanged. It was
-                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                    with
-                    desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum.</p>
 
-          </article>
-     </section>
-     <footer>&copy;2018</footer>
+<body>
+     <!--  The beginning of the wrapper -->
+     <div class="wrapper">
+          <header class="main">
+
+               <div id="myName"><strong>Adeyemi O. Ayodipe</strong></div>
+               <!-- linking with nav section begins-->
+               <nav class="clear">
+                    <ol>
+                         <li><a href="index.html">About</a></li>
+                         <li>|</li>
+                         <li><a href="portfolio.html">Galary</a></li>
+                         <li>|</li>
+                         <li><a href="contact.html">Contact</a></li>
+                    </ol>
+               </nav>
+               <!-- linking with nav section ends-->
+          </header>
+          <section class="mainSection clear">
+               <header class="subHeader">
+                    <div class="pageName"><strong>About Me</strong> </div>
+
+                    <hr><br>
+               </header>
+
+
+
+               <article>
+                    <img id="photoImage" src="assets/images/aayodipe.jpg">
+                    <p class="clear top">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                         including versions of Lorem Ipsum.type and.printing and typesetting industry. Lorem m Ipsum
+                          passages, and more recently with desktop publishing software like Aldus PageMaker including 
+                          versions of Lorem Ipsum.type and.printing and typesetting industry. Lorem Ipsum passages, 
+                          and more recently with desktop publishing software like Aldus PageMaker including versions
+                           of Lorem Ipsum.type and including versions of Lorem Ipsum.type and.
+                        
+
+                    </p>
+                    <p class="clear">scrambled it to make a type specimen book.
+                         It has survived not only five centuries,
+                         but also the leap into electronic typesetting,
+                    </p>
+                    <p>remaining essentially unchanged. It was
+                         popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                         passages, and more recently
+                         with
+                         desktop publishing software like Aldus
+                         PageMaker including versions of Lorem Ipsum.
+                    </p>
+
+               </article>
+          </section>
+
+          <footer>&copy;2018</footer>
+     </div>
+     <!-- The end of the wrapper -->
 </body>
+
 </html>
