@@ -1,4 +1,4 @@
-/* Generic  styling begins */
+/* Generic  styling begins (  The  css style from line 2 to line 150 apply to all the pages) */
 * {
      box-sizing: border-box
 }
@@ -34,10 +34,11 @@ ol {
      display: inline-flex;
      list-style-type: none;
      float: right;
+     margin-right:90px
 }
 
 li {
-     padding: 30px 15px;
+     padding: 30px 4px;
      display: list-item;
 }
 
@@ -51,9 +52,9 @@ a:hover {
      background-color: rgba(241, 239, 239, 0.811);
 }
 
-/* a:visited {
+a:visited {
      color: brown;
-} */
+} 
 a:active {
      background-color: burlywood;
 }
@@ -101,8 +102,8 @@ hr {
      font-size: 30px;
      text-align: center;
      font-family: 'Georgia', Times, Times New Roman, serif;
-     width: 400px;
-     padding: 33px;
+     width: 300px;
+     padding: 33px 10px 33px 0px;
      margin-left: 95px;
      float: left;
 
@@ -122,6 +123,7 @@ nav {
 
 footer {
      background-color: #666666;
+     width:70%;
      color: white;
      padding: 20px;
      margin: 70px 0 0 0;
@@ -129,9 +131,11 @@ footer {
      font-family: 'Georgia', Times, Times New Roman, serif;
      text-align: center;
      border-top: 7px solid #4aaaa5;
+     position:fixed;
 }
 .media{
-     float :right;   
+     float :right; 
+     margin-right:80px;  
 }
 .media a{
      margin:5px;
